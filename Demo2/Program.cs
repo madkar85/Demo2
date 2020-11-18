@@ -21,7 +21,7 @@ namespace Demo2
             string nr = Console.ReadLine();
             int myNr = Convert.ToInt32(nr);
 
-            for (int i = 0; i < arrayOfNumbers.Length, i++)
+            for (int i = 0; i < arrayOfNumbers.Length; i++)
             {
                 if (myNr == arrayOfNumbers[i])
                 {
@@ -35,10 +35,6 @@ namespace Demo2
             }
 
             Console.WriteLine(arrayOfNumbers.Contains(3));
-
-
-
-
         }
     }
 }
